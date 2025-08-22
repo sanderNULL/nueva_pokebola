@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,4 +7,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="230dp"
+        android:layout_height="119dp"
+        android:background="#FA0000"
+        android:layout_gravity="center_horizontal"
+
+        >
+    </View>
+
+    <View
+        android:layout_width="230dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="130dp"
+        android:background="#FFF"
+        android:layout_gravity="center_vertical"
+        >
+    </View>
+
+    <View
+        android:layout_width="230dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="110dp"
+        android:background="#000"
+        >
+    </View>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/black_circle"
+        >
+    </View>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/white_circle"
+        >
+    </Button>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
